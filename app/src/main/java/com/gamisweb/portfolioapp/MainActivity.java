@@ -43,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    /*
+        Shows a pop-up message based on which button was pressed.
+     */
     public void toast(View view){
         Context context = getApplicationContext();
         String button_name = getResources().getResourceEntryName(view.getId());
